@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="logo">
-      <img src="~/public/images/logo-circle_1.png" alt="BELLHUB Logo" width="200" height="200" />
+      <img src="/images/logo-circle_1.png" alt="BELLHUB Logo" width="200" height="200" />
       <h2>BELLHUB</h2>
     </div>
     <div class="login-form">
@@ -56,7 +56,7 @@ body {
         .container {
             text-align: center;
             padding: 80px;
-            background-image: url('~/public/images/bg.png');
+            background-image: url('/images/bg.png');
             background-size: 100%;
             background-repeat: no-repeat;
             height: 543px;

@@ -56,7 +56,7 @@ body {
             height: 97.3vh;
             margin: 0 auto;
 
-            background-image: url('~/public/images/bg.png');
+            background-image: url('/images/bg.png');
             background-size: 1260px 600px;
         }
         .menu-item {

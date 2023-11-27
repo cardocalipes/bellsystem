@@ -49,7 +49,7 @@ body {
             align-items: center;
             height: 97.25vh;
 
-            background-image: url('~/public/images/bg.png');
+            background-image: url('/images/bg.png');
             background-size: 1260px 600px;
         }
         .box {

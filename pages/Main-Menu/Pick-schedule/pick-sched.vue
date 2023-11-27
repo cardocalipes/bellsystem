@@ -45,7 +45,7 @@ body {
             justify-content: space-around;
             align-items: center;
             height: 97.3vh;
-            background-image: url('~/public/images/bg.png');
+            background-image: url('/images/bg.png');
             background-size: 1260px 600px;
         }
         .box {
