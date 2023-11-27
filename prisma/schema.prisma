@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model user_data {
+  id          Int    @id @default(autoincrement())
+  Username    String @db.VarChar(255)
+  Access_Code String @db.VarChar(255)
+}
+
+model schedule1 {
+  ring_number Int
+  timer       DateTime? @db.Time(0)
+  real_time   DateTime? @db.Time(0)
+  id1         Int       @id @default(autoincrement())
+}
+
+model schedule2 {
+  id2         Int       @id @default(autoincrement())
+  ring_number Int
+  timer       DateTime? @db.Time(0)
+  real_time   DateTime? @db.Time(0)
+}
+
+model schedule3 {
+  id3         Int       @id @default(autoincrement())
+  ring_number Int
+  timer       DateTime? @db.Time(0)
+  real_time   DateTime? @db.Time(0)
+}
+
+model history {
+  id         Int      @id @default(autoincrement())
+  ringNumber Int
+  date       DateTime
+  time       String
+  type       String
+}
+
+model saved_schedule {
+  id         Int      @id @default(autoincrement())
+  Sched_num  String?
+  sched_name String?
+  start      String? // In the format of HH:mm
+  duration   Int? // Minutes
+  increment  Int?
+  BreakTime  Boolean?
+}
