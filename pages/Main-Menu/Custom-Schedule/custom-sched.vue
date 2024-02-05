@@ -3,8 +3,8 @@
     <div class="container">
         <h2>Custom</h2>
         <div class="box" onclick="goToSavedSchedulesPage()">
-            <span class="box-icon"><NuxtLink to = "/Main-Menu/Custom-Schedule/Saved-Sched/saved-sched">&#x1F4C2;</NuxtLink></span>
-            <div class="box-label"><NuxtLink to = "/Main-Menu/Custom-Schedule/Saved-Sched/saved-sched">Saved Schedules</NuxtLink></div>
+            <span class="box-icon"><NuxtLink to = "/Main-Menu/Custom-Schedule/Saved-Sched/saved_sched">&#x1F4C2;</NuxtLink></span>
+            <div class="box-label"><NuxtLink to = "/Main-Menu/Custom-Schedule/Saved-Sched/saved_sched">Saved Schedules</NuxtLink></div>
         </div>
         <div class="box" onclick="goToAddCustomPage()">
             <span class="box-icon"><NuxtLink to = "/Main-Menu/Custom-Schedule/Add-Custom/add-custom">&#x2795;</NuxtLink></span>
